@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.micro.saas.secuity.service.impl.BaseUserDetailsServiceImpl

@@ -1,0 +1,11 @@
+
+spring:
+  # 配置中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: geoscene.idihe.net:81
+        namespace: 9785cfe2-3ff2-498b-892a-41969f90cbb3
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: 9785cfe2-3ff2-498b-892a-41969f90cbb3

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.micro.saas.data.mybatis.MybatisPlusConfig,\
+  com.micro.saas.data.redis.RedisConfig,\
+  com.micro.saas.data.tenant.TenantConfigProperties,\
+  com.micro.saas.data.tenant.TenantContextHolderFilter
