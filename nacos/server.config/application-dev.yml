@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      release-urls:
+        - /v2/api-docs
+        - /api/**
+    resource:
+      loadBalanced: true
+      token-info-uri: http://micro-auth/oauth/check_token
+# null字段不返回
+spring:
+  jackson:
+    default-property-inclusion: non_null

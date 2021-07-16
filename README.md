@@ -14,6 +14,7 @@
 | Spring Boot            | 2.2.6.RELEASE |
 | Spring Cloud           | Hoxton.SR3    |
 | Spring Cloud Alibaba   | 2.2.5.RELEASE|
+| Nacos                  | 2.0.2        |
 | Mybatis Plus           | 3.3.1        |
 | hutool                 | 5.6.7       |
 
@@ -32,6 +33,8 @@ micro-cli
 ├── micro-gateway -- Spring Cloud Gateway网关[9999]
 └── micro-upms -- 通用用户权限管理模块
      └── upms-admin -- 业务接口模块
-     └── upms-common 
+     └── upms-common
+└── nacos -- 服务配置
+     └── server.conf --  服务配置文件
 
 

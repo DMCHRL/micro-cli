@@ -1,0 +1,18 @@
+routes:
+ #  micro-auth
+- id: micro-auth
+  predicates:
+  - name: Path
+    args:
+      _genkey_0: /auth/**
+  filters: []
+  uri: lb://micro-auth
+  order: 0
+- id: micro-umps
+  predicates:
+  - name: Path
+    args:
+      _genkey_0: /umps/**
+  filters: []
+  uri: lb://micro-umps
+  order: 0
